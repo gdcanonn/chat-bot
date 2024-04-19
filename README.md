@@ -12,6 +12,8 @@ BACKEND_API=http://localhost:3000
 Following the main commands to run the **Jarvis** app:
 
 ```bash
+# Install dependencies
+yarn
 # Run loaclly and go to http://localhost:3000/
 yarn dev
 # Run tests
