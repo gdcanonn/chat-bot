@@ -1,9 +1,17 @@
 ## Getting Started
 
+First of all:
+
+- Go to `.env` file and add your `OPENAI_API_KEY` to connect to your open AI.
+
+```bash
+OPENAI_API_KEY=
+BACKEND_API=http://localhost:3000
+```
+
 Following the main commands to run the **Jarvis** app:
 
 ```bash
-
 # Run loaclly and go to http://localhost:3000/
 yarn dev
 # Run tests
