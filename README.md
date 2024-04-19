@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
-First, run the development server:
+Following the main commands to run the **Jarvis** app:
 
 ```bash
-npm run dev
-# or
+
+# Run loaclly and go to http://localhost:3000/
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Run tests
+yarn test
+# Run coverage report
+yarn coverage
+# Run EsLint
+yarn lint
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## App guide
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+#### Home page
 
-## Learn More
+![home-page](public/readme/home.png)
 
-To learn more about Next.js, take a look at the following resources:
+#### History page
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![history-page](public/readme/history.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+#### Chat page
 
-## Deploy on Vercel
+![chat-page](public/readme/chat.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Test and Coverage
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### Test coverage
+
+![test](public/readme/tests.png)
+
+#### Coverage report
+
+To see coverage report
+
+- First execute `yarn coverage`.
+- Then go to coverage generated folder at root. Go to `coverage/Icov-report/index.html`. Take `index.html` and _drag_ and _prop_ it on the browser.
+
+![coverage](public/readme/coverage.png)
